@@ -42,7 +42,7 @@ for i in range(1,11):
 
 
 '''while True:
-    num=int(input("Introduzca Numero: "))
+    num=int(input("Introduzca Numero : "))
     if num > 1000 and num < 1500:
         break
     continue'''
