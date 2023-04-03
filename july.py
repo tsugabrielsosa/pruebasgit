@@ -31,7 +31,7 @@ for i in range(3):
 print("El mayor es:",mayor)'''
 
 '''while True:
-    num=int(input("Introduzca num: "))
+    num=int(input("Introduzca num:"))
     if num > 10:
         print("Numero debe ser entre 1 y 10")
         continue
