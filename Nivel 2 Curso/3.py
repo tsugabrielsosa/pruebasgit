@@ -206,6 +206,68 @@ print("cisco.com".rstrip(".com"))
 #no participan en la operación y no se copian en la lista resultante.
 #Si la cadena está vacía, la lista resultante también está vacía.
 print("phi       chi\npsi".split())
+
+#El método startswith() es un espejo del método endswith(), comprueba si una cadena
+#  dada comienza con la subcadena especificada.
+# Demostración del método startswith():
+print("omega".startswith("meg"))
+print("omega".startswith("om"))
+
+#El método strip() combina los efectos causados por rstrip() y lstrip(), 
+# crea una nueva cadena que carece de todos los espacios en blanco iniciales y finales.
+# Demostración del método strip():
+print("[" + "   aleph   ".strip() + "]")
+
+#El método swapcase() crea una nueva cadena intercambiando todas las letras por mayúsculas o minúsculas dentro de la cadena original: 
+#los caracteres en mayúscula se convierten en minúsculas y viceversa.
+# Demostración del método swapcase():
+print("Yo solo sé que no sé nada".swapcase())
+
+#El método title() realiza una función algo similar cambia la primera letra de cada palabra
+#a mayúsculas, convirtiendo todas las demás a minúsculas.
+# Demostración del método title():
+print("Yo solo sé que no sé nada. Parte 1.".title())
+
+#Por último, pero no menos importante, el método upper() hace una copia de la cadena de origen, reemplaza todas las letras
+#  minúsculas con sus equivalentes en mayúsculas, y devuelve la cadena como resultado.
+# Demostración del método upper():
+print("Yo solo sé que no sé nada. Parte 2.".upper())
+
+
+
+
+'''Algunos de los métodos que ofrecen las cadenas son:
+
+capitalize(): cambia todas las letras de la cadena a mayúsculas.
+center(): centra la cadena dentro de una longitud conocida.
+count(): cuenta las ocurrencias de un carácter dado.
+join(): une todos los elementos de una tupla/lista en una cadena.
+lower(): convierte todas las letras de la cadena en minúsculas.
+lstrip(): elimina los caracteres en blanco al principio de la cadena.
+replace(): reemplaza una subcadena dada con otra.
+rfind(): encuentra una subcadena comenzando por el final de la cadena.
+rstrip(): elimina los caracteres en blanco al final de la cadena.
+split(): divide la cadena en una subcadena usando un delimitador dado.
+strip(): elimina los espacios en blanco iniciales y finales.
+swapcase(): intercambia las mayúsculas y minúsculas de las letras.
+title(): hace que la primera letra de cada palabra sea mayúscula.
+upper(): convierte todas las letras de la cadena en mayúsculas.
+
+2. El contenido de las cadenas se puede determinar mediante los siguientes métodos (todos devuelven valores booleanos):
+
+endswith(): ¿La cadena termina con una subcadena determinada?
+isalnum(): ¿La cadena consta solo de letras y dígitos?
+isalpha(): ¿La cadena consta solo de letras?
+islower(): ¿La cadena consta solo de letras minúsculas?
+isspace(): ¿La cadena consta solo de espacios en blanco?
+isupper(): ¿La cadena consta solo de letras mayúsculas?
+startswith(): ¿La cadena consta solo de letras mayúsculas?'''
+
+
+
+
+
+
     
 
     
