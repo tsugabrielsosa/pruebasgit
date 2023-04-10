@@ -2,12 +2,7 @@ def cifrar(text):
     
     cipher = ''
     for char in text:
-        #if not char.isalpha():
-        #    continue
-        char = char.upper()
-        code = ord(char) + 1
-        #if code > ord('Z'):
-        #    code = ord('A')
+        code = ord(char) + 12
         cipher += chr(code)
     return(cipher)
 
@@ -15,7 +10,7 @@ def cifrar(text):
 def desifrar(text):
     cadena=''
     for i in text:
-        des=ord(i)-1
+        des=ord(i)-12
         cadena=cadena+chr(des)
     return(cadena)
         
