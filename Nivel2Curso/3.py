@@ -261,7 +261,7 @@ isalpha(): ¿La cadena consta solo de letras?
 islower(): ¿La cadena consta solo de letras minúsculas?
 isspace(): ¿La cadena consta solo de espacios en blanco?
 isupper(): ¿La cadena consta solo de letras mayúsculas?
-startswith(): ¿La cadena consta solo de letras mayúsculas?'''
+startswith(): ¿La cadena consta solo de letras mayúsculas? '''
 
 
 
