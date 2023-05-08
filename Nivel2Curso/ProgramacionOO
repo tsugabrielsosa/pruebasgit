@@ -1,0 +1,39 @@
+
+#Ejemplo de pila
+stack = []
+
+
+def push(val):
+    stack.append(val)
+
+
+def pop():
+    val = stack[-1]
+    del stack[-1]
+    return val
+
+
+push(3)
+push(2)
+push(1)
+
+print(pop())
+print(pop())
+print(pop())
+
+
+class Stack:  # Definiendo la clase Stack.
+    def __init__(self):  # Definiendo la función del constructor.
+        print("¡Hola!")
+
+
+stack_object = Stack()  # Instanciando el objeto.
+
+class Stack:
+    def __init__(self):
+        self.stack_list = []
+
+
+stack_object = Stack()
+print(len(stack_object.stack_list))
+
